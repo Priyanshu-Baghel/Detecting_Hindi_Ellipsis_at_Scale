@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hindi-ellipsis"
+version = "0.2.2"
+description = "Detection and analysis of ellipsis in Hindi with transformer models, weak supervision and a full Hindi preprocessing pipeline"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Priyanshu" }]
+keywords = ["hindi", "ellipsis", "nlp", "transformers", "muril", "syntax", "indic"]
+dependencies = [
+  "numpy>=1.23",
+  "pandas>=1.5",
+  "scipy>=1.9",
+  "scikit-learn>=1.3",
+  "matplotlib>=3.6",
+  "torch>=2.1",
+  "transformers>=4.40",
+  "tokenizers>=0.15",
+]
+
+[project.optional-dependencies]
+data = ["datasets>=2.14", "pyarrow>=10"]
+stanza = ["stanza>=1.7"]
+umap = ["umap-learn>=0.5"]
+indicnlp = ["indic-nlp-library>=0.92"]
+dev = ["pytest>=7"]
+all = ["datasets>=2.14", "pyarrow>=10", "stanza>=1.7", "umap-learn>=0.5", "indic-nlp-library>=0.92", "pytest>=7"]
+
+[project.scripts]
+hindi-ellipsis = "hindi_ellipsis.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
