@@ -1,0 +1,4 @@
+topic,size,top_terms,ellipsis_rate,rate_PRO_DROP_SUBJECT,rate_IMPERATIVE_NULL_SUBJECT,rate_NULL_OBJECT,rate_CONJ_REDUCTION,rate_GAPPING_FORWARD,rate_GAPPING_BACKWARD,rate_STRIPPING,rate_VERB_STRANDING,rate_SLUICING,rate_COMPARATIVE_ELLIPSIS,rate_NP_ELLIPSIS,rate_COPULA_OMISSION,rate_FRAGMENT_ANSWER
+2,7,नहीं में वह है भी तुम को कल उसने आज,1.0,0.0,0.0,0.0,0.0,0.0,0.0,0.1429,0.0,0.4286,0.1429,0.1429,0.1429,0.0
+0,3,भी है वह में नहीं तुम को कल उसने आज,0.6667,0.0,0.0,0.3333,0.0,0.0,0.0,0.3333,0.3333,0.0,0.0,0.3333,0.0,0.0
+1,29,को उसने तुम है कल आज वह में नहीं भी,0.6207,0.0345,0.1379,0.0345,0.069,0.1034,0.0345,0.0345,0.0,0.0,0.0,0.1034,0.0345,0.0345

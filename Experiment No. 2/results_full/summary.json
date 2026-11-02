@@ -1,0 +1,30 @@
+{
+  "n_sentences": 293577287,
+  "n_tokens": 5540880835,
+  "n_ellipsis_sentences": 34009385,
+  "ellipsis_rate": 0.11584,
+  "family_sentences": {
+    "DISCOURSE": 8311584,
+    "CLAUSAL": 11281410,
+    "ARGUMENT": 9734827,
+    "NOMINAL": 5930974
+  },
+  "types_per_sentence": {
+    "1": 32584536,
+    "0": 259567902,
+    "2": 1377999,
+    "3": 45369,
+    "4": 1427,
+    "5": 54
+  },
+  "length": {
+    "ellipsis": {
+      "sentences": 34009385,
+      "mean_tokens": 20.99
+    },
+    "no_ellipsis": {
+      "sentences": 259567902,
+      "mean_tokens": 18.44
+    }
+  }
+}

@@ -1,0 +1,28 @@
+sid,sentence,prev_sentence,types,primary_type,max_conf,n_tokens,cluster,shape
+0,राम ने चाय पी और सीता ने कॉफ़ी।,,GAPPING_FORWARD,GAPPING_FORWARD,0.85,8,3,W CASE_ERG W AUX CONJ W CASE_ERG W PUNCT
+1,बच्चों ने खाना खाया और बड़ों ने भी।,राम ने चाय पी और सीता ने कॉफ़ी।,NP_ELLIPSIS|STRIPPING,STRIPPING,0.8,8,2,W CASE_ERG W AUX CONJ QUANT CASE_ERG FOC PUNCT
+2,"मुझे लाल वाली चाहिए, नीली वाली नहीं।",बच्चों ने खाना खाया और बड़ों ने भी।,NP_ELLIPSIS,NP_ELLIPSIS,0.8,7,2,PRON ADJ VALA AUX PUNCT ADJ VALA NEG PUNCT
+3,"किसी ने दरवाज़ा खटखटाया था, पता नहीं कौन।",,SLUICING,SLUICING,0.8,8,1,INDEF CASE_ERG W V AUX PUNCT V NEG WH PUNCT
+4,पुलिस ने बताया कि कुछ लोग गिरफ्तार हुए हैं लेकिन यह नहीं बताया कि कितने।,"किसी ने दरवाज़ा खटखटाया था, पता नहीं कौन।",SLUICING,SLUICING,0.8,15,1,W CASE_ERG AUX SUB INDEF W W AUX AUX CONJ PRON NEG AUX SUB WH PUNCT
+5,कल सुबह दिल्ली जाऊँगा और शाम तक लौट आऊँगा।,,PRO_DROP_SUBJECT,PRO_DROP_SUBJECT,0.85,9,3,W W V W CONJ W CASE W W PUNCT
+6,कृपया अपना टिकट साथ रखिए।,कल सुबह दिल्ली जाऊँगा और शाम तक लौट आऊँगा।,IMPERATIVE_NULL_SUBJECT,IMPERATIVE_NULL_SUBJECT,0.75,5,4,W W W W V PUNCT
+7,यहाँ बैठो और चुपचाप सुनो।,कृपया अपना टिकट साथ रखिए।,IMPERATIVE_NULL_SUBJECT,IMPERATIVE_NULL_SUBJECT,0.6,5,4,W W CONJ W W PUNCT
+8,वह घर आया और सो गया।,,CONJ_REDUCTION,CONJ_REDUCTION,0.65,6,0,PRON W AUX CONJ V AUX PUNCT
+9,उसने किताब पढ़ी और अपने दोस्त को दे दी।,वह घर आया और सो गया।,CONJ_REDUCTION,CONJ_REDUCTION,0.65,9,0,PRON_ERG W AUX CONJ W W CASE V AUX PUNCT
+10,दोनों ने मिलकर काम किया।,उसने किताब पढ़ी और अपने दोस्त को दे दी।,NP_ELLIPSIS,NP_ELLIPSIS,0.6,5,2,QUANT CASE_ERG W W AUX PUNCT
+11,प्रधानमंत्री आज वाराणसी में।,,COPULA_OMISSION,COPULA_OMISSION,0.35,4,4,W W W CASE PUNCT
+12,मंत्री जी कार्यालय में नहीं।,प्रधानमंत्री आज वाराणसी में।,COPULA_OMISSION,COPULA_OMISSION,0.6,5,4,W W W CASE NEG PUNCT
+14,राम ने किताब पढ़ी और सीता ने भी पढ़ी।,,NULL_OBJECT|VERB_STRANDING,NULL_OBJECT,0.75,9,3,W CASE_ERG W AUX CONJ W CASE_ERG FOC AUX PUNCT
+15,अमित ने सेब और सुमित ने आम खरीदे।,राम ने किताब पढ़ी और सीता ने भी पढ़ी।,GAPPING_BACKWARD,GAPPING_BACKWARD,0.8,8,3,W CASE_ERG W CONJ W CASE_ERG W V PUNCT
+18,"हाँ, कल सुबह।",क्या तुम कल आओगे?,FRAGMENT_ANSWER,FRAGMENT_ANSWER,0.5,3,4,W PUNCT W W PUNCT
+20,टीम ने पहला मैच जीता लेकिन दूसरा नहीं।,,STRIPPING,STRIPPING,0.8,8,3,W CASE_ERG QUANT W AUX CONJ QUANT NEG PUNCT
+23,भारत ने ऑस्ट्रेलिया को हराया और न्यूजीलैंड ने इंग्लैंड को।,,GAPPING_FORWARD,GAPPING_FORWARD,0.85,10,3,W CASE_ERG W CASE V CONJ W CASE_ERG W CASE PUNCT
+24,बड़ों को सम्मान देना चाहिए।,भारत ने ऑस्ट्रेलिया को हराया और न्यूजीलैंड ने इंग्लैंड को।,NP_ELLIPSIS,NP_ELLIPSIS,0.6,5,2,QUANT CASE W W AUX PUNCT
+25,यह मकान पुराना है और वह नया।,,GAPPING_FORWARD,GAPPING_FORWARD,0.6,7,3,PRON W ADJ AUX CONJ PRON ADJ PUNCT
+26,मेरी वाली कहाँ है?,यह मकान पुराना है और वह नया।,NP_ELLIPSIS,NP_ELLIPSIS,0.8,4,2,W VALA WH AUX PUNCT
+31,उसने खा ली।,अध्यक्ष ने बैठक बुलाई और सदस्यों ने प्रस्ताव पारित किया।,NULL_OBJECT,NULL_OBJECT,0.75,3,0,PRON_ERG V AUX PUNCT
+32,आप चाय लेंगे या कॉफ़ी?,उसने खा ली।,STRIPPING,STRIPPING,0.6,5,0,PRON W V CONJ W PUNCT
+33,वह जितना पढ़ता है उतना उसका भाई नहीं।,,COMPARATIVE_ELLIPSIS,COMPARATIVE_ELLIPSIS,0.7,8,1,PRON W V AUX W W W NEG PUNCT
+34,कोई आया था पर मालूम नहीं कब।,वह जितना पढ़ता है उतना उसका भाई नहीं।,SLUICING,SLUICING,0.8,7,1,INDEF AUX AUX CASE W NEG WH PUNCT
+35,"चलो, अब घर चलते हैं।",कोई आया था पर मालूम नहीं कब।,IMPERATIVE_NULL_SUBJECT,IMPERATIVE_NULL_SUBJECT,0.6,5,4,W PUNCT W W V AUX PUNCT
+37,"सुनिए, आज बाज़ार बंद रहेगा।",तुम बहुत अच्छा गाते हो।,IMPERATIVE_NULL_SUBJECT,IMPERATIVE_NULL_SUBJECT,0.75,5,4,V PUNCT W W W V PUNCT

@@ -1,0 +1,27 @@
+{
+  "n_sentences": 39,
+  "n_tokens": 270,
+  "n_ellipsis_sentences": 27,
+  "ellipsis_rate": 0.69231,
+  "family_sentences": {
+    "CLAUSAL": 12,
+    "NOMINAL": 5,
+    "ARGUMENT": 9,
+    "DISCOURSE": 3
+  },
+  "types_per_sentence": {
+    "1": 25,
+    "2": 2,
+    "0": 12
+  },
+  "length": {
+    "ellipsis": {
+      "sentences": 27,
+      "mean_tokens": 6.7
+    },
+    "no_ellipsis": {
+      "sentences": 12,
+      "mean_tokens": 7.42
+    }
+  }
+}
